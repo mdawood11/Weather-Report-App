@@ -83,7 +83,7 @@ function fetchData() {
         );
         $("#ForecastWeekly").append(updateCard);
         const date = new Date(response.list[i * 8].dt * 1000);
-        updateCard.append($("<h3>").html(date.toLocaleDateString()));
+        updateCard.append($("<h4>").html(date.toLocaleDateString()));
         const icon = response.list[i * 8].weather[0].icon;
         const URLIcone = "http://openweathermap.org/img/w/" + icon + ".png";
         updateCard.append($("<img>").attr("src", URLIcone));

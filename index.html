@@ -17,14 +17,19 @@
     <nav>
       <p><em>Weather Forecast</em></p>
     </nav>
-    <div class="container">
+    <div class="main-cont">
       <div class="row">
         <div class="col-4 bg-light">
           <div class="mt-2">
             <h2>Search By City Name:</h2>
           </div>
           <div class="input-group mb-3">
-            <input type="button" placeholder="Search Your City " />
+            <input
+              id="city"
+              type="text"
+              placeholder="Search Your City "
+              class="form-control"
+            />
             <div class="input-group-append">
               <button class="btn btn-primary" type="button" id="searchCity">
                 <i class="fas fa-search"></i>
@@ -34,12 +39,12 @@
           <div class="group-list"></div>
         </div>
         <div class="col-8">
-          <div class="row p-2">
+          <div class="row p-4">
             <div class="card">
               <div class="card-body"></div>
             </div>
           </div>
-          <div class="row">
+          <div id="row">
             <h3>Five Days Forecast:</h3>
           </div>
 

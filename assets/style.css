@@ -1,0 +1,82 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/113145561/photo/green-field-lined-by-trees-on-clear-day.jpg?s=612x612&w=0&k=20&c=b0Z71CqVgnHef-opS0gi5CuT4SM_btge8eoLKmEHE4I=");
+
+  background-size: cover;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+nav {
+  color: rgb(16, 3, 3);
+  background-color: rgb(75, 148, 148);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flix;
+  padding: 30px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main-cont {
+  background-color: rgb(145, 240, 240);
+}
+
+h4 {
+  background-color: lightskyblue;
+  border-radius: 10px;
+  color: rgb(5, 10, 10);
+  font-weight: bolder;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.list-group-item {
+  background-color: olivedrab;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 51px;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(67, 192, 192);
+  width: 100%;
+  color: rgb(9, 5, 5);
+  border: solid whitesmoke;
+}
+.fiveDay {
+  margin: 14px;
+}
+h3 {
+  text-align: center;
+}
+.mt-2 {
+  background-color: rgb(12, 78, 78);
+  border-radius: 40px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+#row {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.footer {
+  background-color: rgb(75, 148, 148);
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  position: relative;
+  top: 400px;
+  text-align: center;
+}
