@@ -23,8 +23,12 @@ The Weather App is open-source software licensed under the MIT
 
 [App Feature](./assets/Screen%20Shot%202023-05-19%20at%207.33.28%20PM.png)
 
-## GitHub Linke
+## GitHub Link
 
 [GitHub Repo Link](https://github.com/mdawood11/Weather-Report-App)
+
+## Deployment Link
+
+[Deployment Link](https://mdawood11.github.io/Weather-Report-App/)
 
 Thank you for using the Weather App!
